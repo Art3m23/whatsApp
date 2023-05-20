@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #1EBE71;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.exitBtn {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  color: #1EBE71;
+  text-transform: uppercase;
+  background-color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}
+
+.logo p {
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}

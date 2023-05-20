@@ -1,0 +1,68 @@
+.login {
+  width: 400px;
+  padding: 25px;
+  background-color: #1EBE71;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login .form_groop {
+  position: relative;
+}
+
+.login .form_groop input {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login .form_groop label {
+  position: absolute;
+  top:0;
+  left: 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login .form_groop input[type='text']:focus ~ label,
+.login .form_groop input[type='text']:valid ~ label {
+  top: -20px;
+  left: 0;
+  font-size: 12px;
+}
+
+input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  color: #1EBE71;
+  text-transform: uppercase;
+  background-color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+

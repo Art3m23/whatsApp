@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,400&display=swap');
+
+* {box-sizing: border-box; margin: 0; padding: 0; scroll-behavior: smooth;}
+*::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}*::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, .2);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+input, button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}

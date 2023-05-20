@@ -1,0 +1,117 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  border-bottom: 10px solid #4ADF83;
+}
+
+.chat_header {
+  height: 60px;
+  border-bottom: 1px solid #CCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1EBE71;
+}
+
+.chat_headerinfo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.backBtn {
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../public/images/long-arrow-left-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.chat_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.chat_name {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.chat_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease .3s;
+  overflow: hidden;
+}
+
+.chat_body {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #FCFCFC;
+  border-bottom-left-radius: 10px;
+  box-shadow: inset 0em 0em 1em 2px rgba(0, 0, 0, .2);
+  padding: 10px 20px;
+  background-image: url('/public/images/chatBg.jpg');
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.chat_body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.chat_body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.chat_footer {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 35px;
+}
+
+.chat_inputArea {
+  flex: 1;
+  background-color: #FCFCFC;
+}
+
+.chat_input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #efefef;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4A4A4A;
+  padding-left: 15px;
+}
+
+.chat_pos {
+  display: flex;
+  margin: 0 15px;
+}
+
+.btn_send {
+  background-color: #1EBE71;
+  background-image: url(../../../public/images/send.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
